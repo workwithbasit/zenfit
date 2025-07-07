@@ -856,6 +856,21 @@ img {
   transition: 0.3s;
 }
 
+.section__headerm {
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--white);
+}
+
+.section__subheaderm {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  color: var(--text-light);
+}
+
 .price__card:hover {
   border: 2px solid #03a9fa;
   background-color: #03a8fa5b;
@@ -890,7 +905,7 @@ img {
 .price__card p i {
   margin-right: 0.5rem;
   font-size: 1.2rem;
-  color: var(--secondary-color);
+  color: #03a9fa;
 }
 
 .price__btn {
